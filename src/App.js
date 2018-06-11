@@ -57,20 +57,20 @@ class App extends Component {
         </div>
 
         <div id="contact">
-        <br/>
-        <br/>
-        <br/>
+          <br/>
+          <br/>
           <div className="i-center">
             <a target="_blank" href="https://github.com/SaidMayan"><i className="fab fa-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/said-mayan/"><i class="fab fa-linkedin"></i></a>
             <a target="_blank" href="mailto:kasemayan@gmail.com"><i class="fas fa-envelope"></i></a>
           </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+          <br/>
+          <br/>
         </div>
-
+          <div>
+            <h4 className="footer">Designed and kept minimal by Said Mayan</h4>
+          </div>
+          <br/>
       </div>
       </Router>
     );

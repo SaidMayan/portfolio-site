@@ -12,6 +12,11 @@ nav.navbar, .navbar-default {
     src: url('../MyriadPro-Regular.otf');
 }
 
+@font-face {
+    font-family:'PatrickHand-Regular';
+    src: url('../PatrickHand-Regular.ttf');
+}
+
 .navbar-default {
   background-image: none;
   border: none;
@@ -26,9 +31,7 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-brand {
   color: black;
   font-size: 2.8em !important;
-  font-family: 'MyriadPro-Regular';
-  position: relative;
-  top: 4px;
+  font-family: 'PatrickHand-Regular';
 }
 
 .said:hover{
@@ -40,7 +43,7 @@ nav.navbar, .navbar-default {
 }
 
 .work:hover{
-  border-bottom: .2px solid;
+/*  border-bottom: .2px solid;*/
 }
 
 .about {
@@ -48,7 +51,11 @@ nav.navbar, .navbar-default {
 }
 
 .about:hover{
-  border-bottom: .2px solid;
+  /*border-bottom: .2px solid;*/
+}
+
+.navlnk:hover {
+  text-decoration: none;
 }
 
 .contact {
@@ -56,13 +63,15 @@ nav.navbar, .navbar-default {
 }
 
 .contact:hover{
-  border-bottom: .2px solid;
+/*  border-bottom: .2px solid;*/
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+
 
 a:hover {
   color: inherit;
@@ -106,7 +115,7 @@ a:visited{
 }
 
 .name-logo {
-  border-bottom: black 2px solid;
+ /*border-bottom: black 2px solid;*/
  margin: none;
  padding: none;
 }

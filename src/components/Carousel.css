@@ -8,6 +8,13 @@
   margin-right: auto;
 }
 
+@media (max-width:530px) {
+    .carousel {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .carousel2 {
   border-bottom: solid 2px black;
   padding-top: 80px;

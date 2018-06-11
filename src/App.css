@@ -56,6 +56,7 @@ i {
   /*opacity: .5;*/
   padding-right: 100px;
   padding-left: 64px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,5 +66,9 @@ i:hover {
 }
 
 .i-center {
-  text-align:center;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
 }

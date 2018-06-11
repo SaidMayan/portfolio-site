@@ -18,13 +18,13 @@ export default class CustNavbar extends Component {
       <Navbar.Collapse>
         <Nav pullRight>
           <NavItem eventKey={1}>
-            <span className="about"><Scrollchor to="#about" className="nav-link">About</Scrollchor></span>
+            <span className="about"><Scrollchor to="#about" className="navlnk">About</Scrollchor></span>
           </NavItem>
           <NavItem eventKey={2}>
-            <span className="work"><Scrollchor to="#projects" className="nav-link">Work</Scrollchor></span>
+            <span className="work"><Scrollchor to="#projects" className="navlnk">Work</Scrollchor></span>
           </NavItem>
           <NavItem eventKey={3}>
-            <span className="contact"><Scrollchor to="#contact" className="nav-link">Contact</Scrollchor></span>
+            <span className="contact"><Scrollchor to="#contact" className="navlnk">Contact</Scrollchor></span>
           </NavItem>
         </Nav>
       </Navbar.Collapse>
