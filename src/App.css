@@ -1,0 +1,69 @@
+.App {
+  font-family: 'MyriadPro-Regular';
+}
+
+@font-face {
+  font-family:'MyriadPro-Regular';
+  src: url('MyriadPro-Regular.otf');
+}
+
+.skills-title {
+  text-align: left;
+}
+
+.set {
+  text-align: left;
+  padding-left: 64px;
+}
+
+
+.skills {
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  border-bottom: solid 2px black;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects {
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  border-bottom: solid 2px black;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-1 {
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  border-bottom: solid 2px black;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+i {
+  font-size: 325%;
+  color: grey;
+  /*opacity: .5;*/
+  padding-right: 100px;
+  padding-left: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+i:hover {
+  color: black;
+}
+
+.i-center {
+  text-align:center;
+}

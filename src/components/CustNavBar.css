@@ -1,0 +1,112 @@
+.nav a {
+font-size: 1.8em !important;
+font-family: 'MyriadPro-Regular';
+}
+
+nav.navbar, .navbar-default {
+  background-color: white !important;
+}
+
+@font-face {
+    font-family:'MyriadPro-Regular';
+    src: url('../MyriadPro-Regular.otf');
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 2.8em !important;
+  font-family: 'MyriadPro-Regular';
+  position: relative;
+  top: 4px;
+}
+
+.said:hover{
+  border-bottom: 2px solid;
+}
+
+.work {
+  font-size: 15px;
+}
+
+.work:hover{
+  border-bottom: .2px solid;
+}
+
+.about {
+  font-size: 15px;
+}
+
+.about:hover{
+  border-bottom: .2px solid;
+}
+
+.contact {
+  font-size: 15px;
+}
+
+.contact:hover{
+  border-bottom: .2px solid;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited{
+  color: inherit;
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default {
+  color: inherit;
+  background-color: transparent;
+}
+
+.said:hover {
+  color: grey;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:visited {
+  color: inherit;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+
+.name-logo {
+  border-bottom: black 2px solid;
+ margin: none;
+ padding: none;
+}
