@@ -28,7 +28,7 @@ class App extends Component {
         <div className="skills">
           <h1 className="skills-title">SKILLS</h1>
           <br/>
-          <h2 className="set">React, Node.js/Express, Postgresql, HTML, CSS, JS, JQuery, Ruby On Rails, Git, Github, Heroku, Responsive Design...</h2>
+          <h2 className="set">React, Node.js/Express, Javascript (ES6), HTML5, CSS3, Postgresql, JQuery, Ruby On Rails, Git, Github, Heroku, Responsive Design...</h2>
         </div>
 
         <div id="projects">
