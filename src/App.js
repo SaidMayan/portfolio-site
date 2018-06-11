@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Home from './components/Home.jsx';
-import About from './components/About.jsx';
 import CustNavbar from './components/CustNavbar.jsx';
 
 class App extends Component {
@@ -19,20 +18,20 @@ class App extends Component {
 
         <div id="about">
           <div className="about-1">
-            <h1 className="about-title">ABOUT</h1>
+            <h2 className="about-title">ABOUT</h2>
             <br/>
-            <h2 className="set">Hi, I’m Said. I was a copywriter (in branded content), and a production manager in a design studio before learning to code. Now I spend my days obsessing over design, performance and architecture. I have experience in building front-end/back-end applications and visualizing the most effective way (or least obstructive way I should say) of hosting/presenting content. The affinity between design and code is what drives me, along with a monastic curiosity in converting complex problems into simple solutions…</h2>
+            <h3 className="set">Hi, I’m Said. I was a copywriter (in branded content), and a production manager in a design studio before learning to code. Now I spend my days obsessing over design, performance and architecture. I have experience in building front-end/back-end applications and visualizing the most effective way (or least obstructive way I should say) of hosting/presenting content. The affinity between design and code is what drives me, along with a monastic curiosity in converting complex problems into simple solutions…</h3>
           </div>
         </div>
 
         <div className="skills">
-          <h1 className="skills-title">SKILLS</h1>
+          <h2 className="skills-title">SKILLS</h2>
           <br/>
-          <h2 className="set">React, Node.js/Express, Javascript (ES6), HTML5, CSS3, Postgresql, JQuery, Ruby On Rails, Git, Github, Heroku, Responsive Design...</h2>
+          <h3 className="set">React, Node.js/Express, Javascript (ES6), HTML5, CSS3, Postgresql, JQuery, Ruby On Rails, Git, Github, Heroku, Responsive Design...</h3>
         </div>
 
         <div id="projects">
-          <h1>WORK</h1>
+          <h2>WORK</h2>
           <br/>
               <div class="project-info">
                 <h3 className="set">CATCH A FOUR LEAF CLOVER</h3>
