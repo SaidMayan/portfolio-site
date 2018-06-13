@@ -28,6 +28,18 @@
   margin-right: auto;
 }
 
+iframe {
+  margin: 0 auto;
+  display:block;
+}
+
+@media (max-width:530px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
 #projects {
   word-spacing: 5px;
   letter-spacing: 1px;
