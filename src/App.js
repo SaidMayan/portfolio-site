@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import CustNavbar from './components/CustNavbar.jsx';
+import CarouselCA4LC from './components/CarouselCA4LC.jsx';
+import CarouselCrudye from './components/CarouselCrudye.jsx';
 
 class App extends Component {
 
@@ -34,7 +36,7 @@ class App extends Component {
           <h2>WORK</h2>
           <br/>
               <div class="project-info">
-                <iframe src="https://giphy.com/embed/1BffSQTqjoTDqepjwI" width="480" height="246" frameBorder="0" class="giphy-embed"></iframe>
+               <CarouselCA4LC />
                 <h3 className="set">CATCH A FOUR LEAF CLOVER</h3>
                 <h4 className="set">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
                 <a className="set" href="https://github.com/SaidMayan/catch-a-four-leaf-clover-Said" target="_blank">See In Github</a>
@@ -43,7 +45,7 @@ class App extends Component {
                 <br />
               </div>
               <div class="project-info">
-              <iframe src="https://giphy.com/embed/9x1oZz5lQap6TOfhgO" width="480" height="270" frameBorder="0" class="giphy-embed"></iframe>
+              <CarouselCrudye />
                 <h3 className="set">CRUDYE</h3>
                 <h4 className="set">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
                 <a className="set" href="https://github.com/SaidMayan/crudYe-Said" target="_blank">See In Github</a>
