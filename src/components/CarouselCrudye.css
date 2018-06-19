@@ -33,8 +33,8 @@
 }
 
 img.CruddyImg {
-  border-top: black thin solid;
+  border-top: lightgrey thin solid;
   padding: 15px;
-  border-bottom: black thin solid;
+  border-bottom: lightgrey thin solid;
   padding: 15px;
 }
