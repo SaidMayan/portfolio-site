@@ -22,7 +22,7 @@ class App extends Component {
           <div className="about-1">
             <h2 className="about-title">ABOUT</h2>
             <br/>
-            <h3 className="set">Hi, I’m Said. I was a copywriter (in branded content), and a production manager in a design studio before learning to code. Now I spend my days obsessing over design, performance and architecture. I have experience in building front-end/back-end applications and visualizing the most effective way (or least obstructive way I should say) of hosting/presenting content. The affinity between design and code is what drives me, along with a monastic curiosity in converting complex problems into simple solutions…</h3>
+            <h3 className="set">Hi, I’m Said. I was an editor in branded content, and a production manager in a design studio before learning to code. Now I spend my days mulling over design, performance and architecture. I have experience in building front-end/back-end applications and visualizing the most effective way (or least obstructive way I should say) of hosting/presenting content. The affinity between design and code is what drives me, along with a monastic curiosity in converting complex problems into simple solutions…</h3>
           </div>
         </div>
 
