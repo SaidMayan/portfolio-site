@@ -6,6 +6,7 @@ import Home from './components/Home.jsx';
 import CustNavbar from './components/CustNavbar.jsx';
 import CarouselCA4LC from './components/CarouselCA4LC.jsx';
 import CarouselCrudye from './components/CarouselCrudye.jsx';
+import { ScrollApp } from './components/ScrollButton.jsx';
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <CustNavbar />
+        <ScrollApp />
         <Route exact path="/" component={Home} />
 
 

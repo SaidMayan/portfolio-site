@@ -1,5 +1,5 @@
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+    /*background-image: none*/
 }
 .carousel {
   width:500px;
@@ -29,6 +29,19 @@
   display: none;
 }
 
+
+
 .carousel-control {
-  display: none;
+  /*display: none;*/
+  /*color: black;*/
+}
+
+span.glyphicon.glyphicon-chevron-left {
+/*background-image: url("../images/host-1.jpg");*/
+opacity: 0;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+/*background-image: url("../images/host-1.jpg");*/
+opacity: 0;
 }
