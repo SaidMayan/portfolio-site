@@ -12,12 +12,12 @@ a {
 }
 
 .container {
-  height: 400px;
+/*  height: 400px;*/
 }
 
 .scroll {
-  opacity: 0.3;
-  background-color: grey;
+  /*opacity: 0.3;*/
+  background-color: white;
   width: 40px;
   height: 40px;
   position: fixed;
@@ -31,8 +31,13 @@ a {
   }
 }
 
+
+.scroll:focus {
+outline:0;
+}
+
 .arrow-up {
-  color: pink;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;

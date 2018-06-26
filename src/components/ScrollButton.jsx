@@ -41,6 +41,7 @@ export class ScrollApp extends React.Component {
 
   render () {
     return <div className="long">
+
               <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
            </div>
   }
