@@ -42,6 +42,7 @@ class App extends Component {
                 <h3 className="set">CATCH A FOUR LEAF CLOVER</h3>
                 <h4 className="set">A single player game where the objective of the game is to net (by clicking) as many windswept Four-Leaf Clovers as you can within a minute’s time. The more clovers you’re able to net, the better your luck. Level of difficulty is raised with strong wind-speeds and clovers that are hard to click on. Design and architectural (Modernist) backdrops serve as a theme throughout the app, as he/she try to navigate the elements…<br/><br/>Technologies/Languages: HTML, CSS, Javascript, JQuery</h4>
                 <a className="set" href="https://github.com/SaidMayan/catch-a-four-leaf-clover-Said" target="_blank">See In Github</a>
+                <a className="set-link" href="https://catch-a-four-leaf-clover.herokuapp.com" target="_blank">See Live</a>
                 <br />
                 <br />
                 <br />
@@ -51,16 +52,19 @@ class App extends Component {
                 <h3 className="set">CRUDYE</h3>
                 <h4 className="set">A fun-themed CRUD app where users get to navigate four different Kanye (West) types: Old Kanye, Straight-from-the-Go Kanye, So-Kanye (Kanye West storming the VMA stage) and New Kanye… Each Kanye Type has a set of instances that include a photo and context to that particular instance, “Kanye did what?!”… Users are able to utilize full CRUD functionality on any instances they have created.<br /><br/>Technologies/Languages: CSS, Javascript, JQuery, Node.js/Express, PostgreSQL, Bcrypt, JWT, Heroku</h4>
                 <a className="set" href="https://github.com/SaidMayan/crudYe-Said" target="_blank">See In Github</a>
+                <a className="set-link" href="https://crudye.herokuapp.com" target="_blank">See Live</a>
               </div>
               <div class="project-info">
                 <h3 className="set">FOODFAV</h3>
                 <h4 className="set">A restaurant review app utilizing Yelp’s API to fetch a list of restaurants (client-side rendering) based on a user’s location and preferred cuisine types. After searching restaurants, you’re able to review them yourself and leave notes for future references. Full CRUD functionality on reviewing restaurants. Peer programmed with three other members through one git repository and separated each task amongst team members.<br /><br/>Technologies/Languages: React, Yelp API, CSS, Javascript, Node.js/Express, PostgreSQL, Bcrypt, JWT, Heroku</h4>
                 <a className="set" href="https://github.com/SaidMayan" target="_blank">See In Github</a>
+                <a className="set-link" href="https://food-fav.herokuapp.com" target="_blank">See Live</a>
               </div>
               <div class="project-info">
                 <h3 className="set">NUDISTGUISE</h3>
                 <h4 className="set">An e-commerce site offering a selection of niched menswear and random goods. Users are able to navigate through all products, products by category and a blog (WIP). Design borrows it style from Tres-Bien (menswear) Shop. Post MVP is to add a fully-function payment option/service, potentially Stripe API.<br /><br/>Technologies/Languages: React, CSS, Javascript, Node.js/Express, PostgreSQL, Bcrypt, JWT, Heroku</h4>
                 <a className="set" href="https://github.com/SaidMayan/e-commerce-nudistguise" target="_blank">See In Github</a>
+                <a className="set-link" href="https://nudistguise.herokuapp.com" target="_blank">See Live</a>
               </div>
         </div>
 
