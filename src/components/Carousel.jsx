@@ -6,6 +6,9 @@ class Carousel1 extends Component {
     render() {
         return (
           <div className="carousel2">
+            <div className="scroll-left">
+                <h3>An innovative approach to design and build that relies heavily on happiness and harmony...</h3>
+            </div>
             <Carousel>
                 <Carousel.Item>
                     <img width={500} height={500} alt="500x500" src={require('../images/host-1.jpg')}/>
