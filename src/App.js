@@ -6,6 +6,7 @@ import Home from './components/Home.jsx';
 import CustNavbar from './components/CustNavbar.jsx';
 import CarouselCA4LC from './components/CarouselCA4LC.jsx';
 import CarouselCrudye from './components/CarouselCrudye.jsx';
+import CarouselNudistguise from './components/CarouselNudistguise.jsx';
 import { ScrollApp } from './components/ScrollButton.jsx';
 
 class App extends Component {
@@ -61,6 +62,7 @@ class App extends Component {
                 <a className="set-link" href="https://food-fav.herokuapp.com" target="_blank">See Live</a>
               </div>
               <div class="project-info">
+              <CarouselNudistguise />
                 <h3 className="set">NUDISTGUISE</h3>
                 <h4 className="set">An e-commerce site offering a selection of niched menswear and random goods. Users are able to navigate through all products, products by category and a blog (WIP). Design borrows it style from Tres-Bien (menswear) Shop. Post MVP is to add a fully-function payment option/service, potentially Stripe API.<br /><br/>Technologies/Languages: React, CSS, Javascript, Node.js/Express, PostgreSQL, Bcrypt, JWT, Heroku</h4>
                 <a className="set" href="https://github.com/SaidMayan/e-commerce-nudistguise" target="_blank">See In Github</a>
