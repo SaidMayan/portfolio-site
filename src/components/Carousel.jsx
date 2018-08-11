@@ -7,7 +7,7 @@ class Carousel1 extends Component {
         return (
           <div className="carousel2">
             <div className="scroll-left">
-                <h3>An innovative approach to design and build that relies heavily on happiness and harmony...</h3>
+                <h3>An innovative approach to design and build that relies heavily on happiness / harmony...</h3>
             </div>
             <Carousel>
                 <Carousel.Item>
