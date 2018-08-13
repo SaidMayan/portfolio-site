@@ -1,39 +1,39 @@
 .carousel-control.left, .carousel-control.right {
-    /*background-image: none*/
+  /*background-image: none*/
 }
 .carousel {
-  width:500px;
-  height:500px;
-  margin-left: auto;
-  margin-right: auto;
+width:500px;
+height:500px;
+margin-left: auto;
+margin-right: auto;
 }
 
 @media (max-width:530px) {
-    .carousel {
-        width: 100%;
-        height: auto;
-    }
+  .carousel {
+      width: 100%;
+      height: auto;
+  }
 }
 
 .carousel2 {
-  border-bottom: solid 2px black;
-  /* padding-top: 80px; */
-  padding-bottom: 80px;
-  margin-bottom: 40px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+border-bottom: solid 2px black;
+/* padding-top: 80px; */
+padding-bottom: 80px;
+margin-bottom: 40px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .carousel-indicators{
-  display: none;
+display: none;
 }
 
 
 
 .carousel-control {
-  /*display: none;*/
-  /*color: black;*/
+/*display: none;*/
+/*color: black;*/
 }
 
 span.glyphicon.glyphicon-chevron-left {
@@ -47,46 +47,44 @@ opacity: 0;
 }
 
 .scroll-left {
-  width: 100%;
-  height: 50px; 
-  overflow: hidden;
-  position: relative;
-  }
-  .scroll-left h3 {
-  position: absolute;
-  font-size: 22px; 
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-  /* Starting position */
-  -moz-transform:translateX(100%);
-  -webkit-transform:translateX(100%); 
-  transform:translateX(100%);
-  /* Apply animation to this element */ 
-  -moz-animation: scroll-left 12s linear infinite;
-  -webkit-animation: scroll-left 12s linear infinite;
-  animation: scroll-left 12s linear infinite;
-  }
-  /* Move it (define the animation) */
-  @-moz-keyframes scroll-left {
-  0% { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
-  }
-  @-webkit-keyframes scroll-left {
-  0% { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
-  }
-  @keyframes scroll-left {
-  0% { 
-  -moz-transform: translateX(100%); /* Browser bug fix */
-  -webkit-transform: translateX(100%); /* Browser bug fix */
-  transform: translateX(100%); 
-  }
-  100% { 
-  -moz-transform: translateX(-100%); /* Browser bug fix */
-  -webkit-transform: translateX(-100%); /* Browser bug fix */
-  transform: translateX(-100%); 
-  }
-  }
+height: 50px; 
+overflow: hidden;
+position: relative;
+}
+.scroll-left h3 {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%); 
+transform:translateX(100%);
+/* Apply animation to this element */ 
+-moz-animation: scroll-left 10s linear infinite;
+-webkit-animation: scroll-left 10s linear infinite;
+animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0% { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0% { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0% { 
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%); 
+}
+100% { 
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%); 
+}
+}
