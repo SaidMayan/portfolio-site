@@ -67,6 +67,14 @@ transform:translateX(100%);
 -webkit-animation: scroll-left 10s linear infinite;
 animation: scroll-left 10s linear infinite;
 }
+
+@media (max-width:800px) {
+  .scroll-left h3 {
+      width: 225%;
+      height: auto;
+  }
+}
+
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
 0% { -moz-transform: translateX(100%); }
