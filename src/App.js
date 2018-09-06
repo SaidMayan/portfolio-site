@@ -59,7 +59,7 @@ class App extends Component {
                 <h3 className="set">FOODFAV</h3>
                 <h4 className="set">A restaurant review app utilizing Yelp’s API to fetch a list of restaurants (client-side rendering) based on a user’s location and preferred cuisine types. After searching restaurants, you’re able to review them yourself and leave notes for future references. Full CRUD functionality on reviewing restaurants. Peer programmed with three other members through one git repository and separated each task amongst team members.<br /><br/>Technologies/Languages: React, Yelp API, CSS, Javascript, Node.js/Express, PostgreSQL, Bcrypt, JWT, Heroku</h4>
                 <a className="set" href="https://github.com/SaidMayan" target="_blank">See In Github</a>
-                <a className="set-link" href="https://food-fav.herokuapp.com" target="_blank">See Live</a>
+                <a className="set-link" target="_blank">Being Updated</a>
               </div>
               <div class="project-info">
               <CarouselNudistguise />
