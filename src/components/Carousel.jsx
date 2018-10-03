@@ -11,34 +11,31 @@ class Carousel1 extends Component {
             </div>
             <Carousel>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-1.jpg')}/>
+                    <img  alt="899x500" src={require('../images/PAA-Option 3 - 1 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-2.jpg')}/>
+                    <img alt="899x500" src={require('../images/PAA-Option 3 - 2 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-3.jpg')}/>
+                    <img alt="899x500"src={require('../images/PAA-Option 3 - 3 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-4.jpg')}/>
+                    <img alt="899x500" src={require('../images/PAA-Option 3 - 4 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-5.jpg')}/>
+                    <img alt="899x500" src={require('../images/PAA-Option 3 - 5 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-6.jpg')}/>
+                    <img alt="899x500" src={require('../images/PAA-Option 3 - 6 – take 2.png')}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-7.jpg')}/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-8.jpg')}/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width={500} height={500} alt="500x500" src={require('../images/host-9.jpg')}/>
+                    <img alt="899x500" src={require('../images/PAA-Option 3 - 7 – take 2.png')}/>
                 </Carousel.Item>
             </Carousel>
+            <br/>
+            <h4 align="center">**Case study: Wireframes for e-commerce site redesign for independent menswear brand <a href="https://houseofpaa.com/">PAA</a></h4>
           </div>
+         
         );
     }
 }
