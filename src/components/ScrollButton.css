@@ -17,7 +17,7 @@ a {
 
 .scroll {
   /*opacity: 0.3;*/
-  background-color: white;
+  background-color: transparent;
   width: 40px;
   height: 40px;
   position: fixed;

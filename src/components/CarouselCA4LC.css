@@ -8,7 +8,7 @@
   margin-right: auto;
 }
 
-@media (max-width:530px) {
+@media (max-width:767px) {
     .CA4LC {
         width: 100%;
         height: auto;
@@ -16,12 +16,28 @@
 }
 
 .CarouselCA4LC {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 40px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width:767px) {
+  .CarouselCA4LC {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .carousel-indicators{
@@ -33,8 +49,7 @@
 }
 
 img.CA4LCImg {
-  border-top: lightgrey thin solid;
-  padding: 15px;
-  border-bottom: lightgrey thin solid;
-  padding: 15px;
+  max-width: 100% !important;
+  height: auto !important;
+  padding-bottom: 10px;
 }

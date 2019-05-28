@@ -1,7 +1,16 @@
-.Home{
+.Home {
   font-family: 'MyriadPro-Regular';
+  /* max-width: 100%;
+  height: auto; */
 }
-
+@media (max-width:767px) {
+  .Home {
+    /* width: 100vw;
+    max-width: 100%;
+    height: auto; */
+    
+  }
+}
 @font-face {
     font-family:'MyriadPro-Regular';
     src: url('../MyriadPro-Regular.otf');

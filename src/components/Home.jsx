@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
 
         <div className="Home">
-          <div >
+          <div className="carousel-first">
             <Carousel1 />
           </div>
 
