@@ -25,7 +25,7 @@ class App extends Component {
           <div className="about-1">
             <h2 className="about-title">ABOUT</h2>
             <br/>
-            <h3 className="set skill-about">The affinity between design and code is what drives me, along with a monastic curiosity in providing simple solutions to complex problems. I was an editor in branded content, and a production manager in a design studio before learning to code.</h3>
+            <h3 className="set skill-about">Product and the affinity between design and code is what drives me, along with a monastic curiosity in providing simple solutions to complex problems. I was an editor in branded content, and a production manager in a design studio before learning to code.</h3>
           </div>
         </div>
 
